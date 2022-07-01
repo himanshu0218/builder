@@ -3,8 +3,10 @@
 
         <remote name="himanshu0218" fetch="https://github.com/himanshu0218" />
         <remote name="utsav" fetch="https://github.com/UtsavBalar1231" />
+        <remote name="lineage" fetch="https://github.com/LineageOS" />
 
         <project path="device/xiaomi/alioth" name="device_xiaomi_alioth" remote="himanshu0218" revision="lineage-19.1" />
         <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" remote="utsav" revision="android12-stable" />
         <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="himanshu0218" revision="lineage-19.1" />
+        <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage" revision="lineage-19.1" />
 </manifest>
