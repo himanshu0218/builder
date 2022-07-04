@@ -4,17 +4,9 @@
         <remote name="himanshu0218" fetch="https://github.com/himanshu0218" />
         <remote name="utsav" fetch="https://github.com/UtsavBalar1231" />
         <remote name="posp" fetch="https://github.com/PotatoDevices" />
-        <remote name="void" fetch="https://github.com/VoidUI-Devices" />
-        <remote name="void1" fetch="https://github.com/VoidUI" />
-        <remote name="los" fetch="https://github.com/LineageOS" />
-      
-        <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
-        
-        <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="los" revision="lineage-19.1" />
-        
-        <project path="device/xiaomi/alioth" name="alioth" remote="himanshu0218" revision="aosp-12.1" />
-        <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="void" revision="aosp-12.1" />
-        <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common" remote="himanshu0218" revision="aosp-12.1" />
-        <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="himanshu0218" revision="aosp-12.1" />
-        <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" remote="void" revision="aosp-12.1" />
+
+        <project path="device/xiaomi/alioth" name="device_xiaomi_alioth" remote="himanshu0218" revision="lineage-19.1" />
+        <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" remote="utsav" revision="android12-stable" />
+        <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="himanshu0218" revision="lineage-19.1" />
+        <project path="hardware/xiaomi" name="hardware_xiaomi" remote="posp" revision="frico_mr1-release" />
 </manifest>
