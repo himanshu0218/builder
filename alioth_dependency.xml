@@ -10,6 +10,6 @@
         <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="los" revision="lineage-19.1" />
          
         <project path="device/xiaomi/alioth" name="device_xiaomi_alioth" remote="himanshu0218" revision="lineage-19.1" />
-        <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" remote="utsav" revision="frico_mr1-release" />
+        <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" remote="posp" revision="frico_mr1-release" />
         <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="himanshu0218" revision="lineage-19.1" />
 </manifest>
