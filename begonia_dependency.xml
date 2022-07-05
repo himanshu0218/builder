@@ -3,11 +3,12 @@
 
         <remote name="himanshu0218" fetch="https://github.com/himanshu0218" />
         <remote name="posp" fetch="https://github.com/PotatoDevices" />
-        <remote name="posporg" fetch="https://github.com/PotatoProject" />
+        <remote name="cr" fetch="https://github.com/begonia-dev" />
 
-        <project path="device/xiaomi/begonia" name="begonia_a12" remote="himanshu0218" revision="12" />
-        <project path="kernel/xiaomi/mt6785" name="kernel_xiaomi_mt6785" remote="posp" revision="frico-release" />
-        <project path="vendor/xiaomi/begonia" name="vendor_xiaomi_begonia" remote="himanshu0218" revision="12" />
-        <project path="vendor/xiaomi/begonia-ims" name="vendor_xiaomi_begonia-ims" remote="posp" revision="frico-release" />
-        <project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy" remote="posporg" revision="frico-release" />
+        <project path="device/redmi/begonia" name="android_device_xiaomi_begonia" remote="himanshu0218" revision="12.1" />
+        <project path="kernel/xiaomi/mt6785" name="android_kernel_xiaomi_mt6785" remote="cr" revision="12.1" />
+        <project path="vendor/redmi/begonia" name="android_vendor_xiaomi_begonia" remote="cr" revision="12.1" />
+        <project path="vendor/redmi/begonia-ims" name="android_vendor_xiaomi_begonia-ims" remote="cr" revision="12.0" />
+        <project path="device/mediatek/sepolicy" name="android_device_mediatek_sepolicy" remote="cr" revision="12.1" />
+        <project path="vendor/redmi/begonia-firmware" name="android_vendor_redmi_begonia-firmware" remote="cr" revision="11.0" />
 </manifest>
