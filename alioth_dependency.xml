@@ -5,6 +5,7 @@
         <remote name="utsav" fetch="https://github.com/UtsavBalar1231" />
         <remote name="los" fetch="https://github.com/LineageOS" />
         <remote name="cris" fetch="https://github.com/PlusLineage" />
+        <remote name="posp" fetch="https://github.com/PotatoDevices" />
        
         <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
         <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
@@ -17,7 +18,7 @@
         <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="cris" revision="plus" />
         <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="cris" revision="plus" />
         <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common" remote="cris" revision="plus" />
-        <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" remote="utsav" revision="android12-stable" />
+        <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" remote="posp" revision="frico_mr1-release" />
 
         <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" remote="los" revision="lineage-19.1" />
         <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" remote="los" revision="lineage-19.1" />
